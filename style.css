@@ -5,9 +5,9 @@
 
 /* The code below adds a white background-color and black text color for the body of the page. */
 body {
-    color: black;
+    color: rgb(17, 17, 17);
     text-align: center;
-    background-color: white;
+    background-color: rgb(236, 236, 236);
 }
 
 
@@ -16,4 +16,21 @@ body {
     color:white;
     text-align: center;
     background-color: black;
+}
+
+img {
+    width: 1023px;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: rgb(19, 19, 19);
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 43%;
+  transform: translate(-50%, -50%);
 }
