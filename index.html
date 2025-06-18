@@ -3,13 +3,21 @@
   
 <head>
   <link rel="stylesheet" href="style.css">
+  <script defer src="silly.js"></script>
 </head>
 
 <body>
+  <button class="hide_button button_1" type="button">light mode</button>
+  <button class="hide_button_2 button_1" type="reset">Dark mode</button>
   <div class="container">
-  <img src="images/tele-lightmode.png">
+  <img id="imgClickAndChange" src="images/tele-darkmode.png">
   <div class="centered"><h1>Salutations.</h1></div>
-  </div>
+
+  <div class="hidden">
+  <div class="container hidden">
+  <img class="hidden" src="images/tele-lightmode.png">
+  <div class="centered light-mode hidden"><h1>Salutations.</h1></div>
+</div>
  </div>
 </body>
 
