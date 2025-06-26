@@ -20,21 +20,68 @@ body {
     text-align: center;
 }
 
-img {
+.img {
     width: 985px;
+    background-attachment: fixed;
+    right: 20px;
+    bottom: 100px;
+    /*left: 200;*/
+    pointer-events: none;
+    z-index: -10;
 }
 
 .container {
   position: relative;
   text-align: center;
+  pointer-events: none;
 }
 
 .centered {
   position: absolute;
   top: 50%;
-  left: 43%;
+  left: 50%;
   transform: translate(-50%, -50%);
   font-size: 15px;
+}
+
+.left {
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px
+}
+
+.two {
+  position: absolute;
+  top: 250%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px
+}
+
+.rager {
+  position: absolute;
+  top: 480%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px
+}
+
+.rody {
+  position: absolute;
+  top: 350%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px
+}
+
+.extra {
+  position: absolute;
+  top: 600%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 15px
 }
 
 .light-mode {
@@ -48,11 +95,67 @@ img {
     color: aliceblue;
 }
 
+.burr {
+  border-radius: 50%;
+  font-size: 17px;
+  aspect-ratio: 1;
+  background-color: rgb(112, 50, 146);
+  color: rgb(209, 209, 209);
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 
-/*.hide_button {
+.direct-2 {
   position: absolute;
-  top: 78%;
-  left: 43%;
-  transform: translate(-50%, -50%);
-  font-size: 15px;
-}*/
+  right: 202.5px;
+  bottom: 432.5px;
+  z-index: 10;
+  
+}
+
+.direct-3 {
+  position: absolute;
+  right: 202.5px;
+  bottom: 361.5px;
+  z-index: 11;
+}
+
+.direct-4 {
+  position: absolute;
+  right: 202.5px;
+  bottom: 290.5px;
+  z-index: 12;
+}
+
+.direct-5 {
+  position: absolute;
+  right: 202.5px;
+  bottom: 222px;
+  z-index: 13;
+}
+
+#content{
+    position: absolute;
+    /*background-color: rgb(163, 24, 209);*/
+    top: 121px;
+    left: 259px;
+    width: 585px;
+    height: 352px;
+    z-index: 9999;
+    overflow-y: scroll;
+    overflow-wrap: break-word;
+    scrollbar-color: rgba(144, 144, 144, 0.25) rgba(235, 64, 52, 0.0) ;
+    scrollbar-width: thin;
+    /*display: none;*/
+}
+
+.links {
+  color: white;
+}
+
+.clan {
+  width: 250px;
+  position: absolute;
+  left: 50px;
+  top: 85px;
+  border-radius: 10px;
+}
